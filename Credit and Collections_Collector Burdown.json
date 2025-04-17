@@ -3,7 +3,7 @@
   "compatibilityLevel": 1567,
   "model": {
     "culture": "en-US",
- "culture1": "en-US1",
+
 "legacyRedirects": true,
     "dataAccessOptions": {
       
@@ -13,23 +13,23 @@
     "sourceQueryCulture": "en-US",
     "tables": [
       {
-        "name": "Collector Burndown",
+        "name": "Collector Burndown1",
         "lineageTag": "77356a74-28e1-4fdf-aaae-3099ff61a91e",
         "columns": [
           {
-            "name": "In_Out_Indicator",
+            "name": "In_Out_Indicator_1",
             "dataType": "string",
             "sourceColumn": "In_Out_Indicator",
             "lineageTag": "dd79dddb-e443-4cea-943b-ce0abeaa75f1",
             "summarizeBy": "none",
             "annotations": [
               {
-                "name": "SummarizationSetBy",
                 "value": "Automatic"
               }
             ]
           },
           {
+            "name": "SummarizationSetBy",
             "name": "In_Out_Detail",
             "dataType": "string",
             "sourceColumn": "In_Out_Detail",
